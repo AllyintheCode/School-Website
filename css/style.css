@@ -338,3 +338,36 @@ main {
 .semester-descraption {
   margin: 0 0 0 20px;
 }
+
+.galery-images img {
+  width: 320px;
+  height: 280px;
+}
+
+.galery-images {
+  width: 85%;
+  gap: 35px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-box4 {
+  padding: 50px 0 50px 290px;
+  background-color: #F9FBFD;
+}
+
+.image-title h2 {
+  margin: 20px 0 20px 83px;
+}
+
+.main-box4 a {
+  display: flex;
+  width: 184px;
+  height: 40px;
+  background-color: #0193DC;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 auto 610px;
+}
