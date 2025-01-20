@@ -247,8 +247,94 @@ main {
 }
 
 .Berita-dan-Agenda-box {
-  width: 45%;
-  background-color: red;
+  width: 43%;
+  display: flex;
+
+}
+
+.main-box3 {
+  width: 1400px;
+  margin: 90px auto;
+  display: flex;
+}
+
+.descraption h3 {
+  width: 142px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21.79px;
+  letter-spacing: 0.3px;
+  color: #0C101A;
+}
+
+.descraption time {
+  width: 40px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #919FAE;
+}
+
+.descraption p {
+  color: #919FAE;
+  width: 370px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 10px 0;
+}
+
+.descraption {
+  padding: 5px 0 20px 20px;
+}
+
+.BdaTitle {
+  margin: 10px 0 65px 0;
+}
+
+.main-semester-box {
+  margin: 110px 0 0 150px;
+  gap: 20px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.semester-box {
+  display: flex;
+  width: 600px;
+}
+
+.bda-box {
+  border-right: 1px solid #F4F6F5;
+}
+
+.semester-descraption p {
+  width: 92px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #919FAE;
+}
+
+.semester-descraption h3 {
+  width: 257px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21.79px;
+  letter-spacing: 0.3px;
+  color: #0C101A;
+  margin: 5px 0;
+}
+
+.semester-descraption {
+  margin: 0 0 0 20px;
 }
